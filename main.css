@@ -1,0 +1,62 @@
+body{
+    
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    max-width: 800px;
+    margin-left: 100px;
+   
+}
+
+
+.main{
+    position: relative;
+    margin-bottom: 1.25rem;
+
+}
+
+input{
+    border: 0;
+    border-bottom: 1px solid #424242;
+    outline: none;
+    font-size: 5px;
+    display: grid;
+    margin-left: 1px;
+    
+}
+
+input:focus{
+    color: #424242;
+    font-size: .55rem;
+    top: -25px;
+    pointer-events: none;
+    border-bottom: 2px solid black;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    font-size: 7px;
+    height: 15px;
+    width: 85px;
+}
+
+p{
+    font-size: 10px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+span{
+    margin-left: 110px;
+    text-align: center;
+   
+}

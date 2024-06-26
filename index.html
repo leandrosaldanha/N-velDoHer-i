@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de nível do Herói</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+     <form class="container">
+      <div class="main">
+        <input type="text" name="NomeHeroi" id="nomeHeroi"  placeholder="Digite seu nome, Herói"  required >
+
+        <input type="number" name="Nível Herói" id="nivelHeroi" placeholder="Digite seu nível de Herói" required>
+        <button type="submit" id="btn-submit" onclick="exibirNivelHeroi()">Checar Nível de Herói</button>
+         
+       </div>
+     </form>
+     <div id="p">
+     <p id="paragrafo"></p> 
+     <span id="spanCor"></span>
+    </div>
+     
+
+    <script src="main.js"></script>
+</body>
+</html>
